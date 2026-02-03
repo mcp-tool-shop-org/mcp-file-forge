@@ -8,6 +8,7 @@ import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';
 import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js';
 import { registerReadTools } from './tools/read.js';
 import { registerWriteTools } from './tools/write.js';
+import { registerSearchTools } from './tools/search.js';
 
 // Server metadata
 const SERVER_NAME = 'mcp-file-forge';
@@ -25,6 +26,7 @@ export function createServer(): McpServer {
   // Register all tools
   registerReadTools(server);
   registerWriteTools(server);
+  registerSearchTools(server);
 
   return server;
 }
