@@ -7,5 +7,21 @@
  * and project scaffolding.
  */
 
-// Server implementation will be added in subsequent commits
-console.error('MCP File Forge - Starting...');
+import { startServer } from './server.js';
+
+// Handle uncaught errors
+process.on('uncaughtException', (error) => {
+  console.error('[mcp-file-forge] Uncaught exception:', error);
+  process.exit(1);
+});
+
+process.on('unhandledRejection', (reason) => {
+  console.error('[mcp-file-forge] Unhandled rejection:', reason);
+  process.exit(1);
+});
+
+// Start the server
+startServer().catch((error) => {
+  console.error('[mcp-file-forge] Fatal error:', error);
+  process.exit(1);
+});
