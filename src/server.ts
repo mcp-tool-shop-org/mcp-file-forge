@@ -10,6 +10,7 @@ import { registerReadTools } from './tools/read.js';
 import { registerWriteTools } from './tools/write.js';
 import { registerSearchTools } from './tools/search.js';
 import { registerMetadataTools } from './tools/metadata.js';
+import { registerScaffoldTools } from './tools/scaffold.js';
 
 // Server metadata
 const SERVER_NAME = 'mcp-file-forge';
@@ -29,6 +30,7 @@ export function createServer(): McpServer {
   registerWriteTools(server);
   registerSearchTools(server);
   registerMetadataTools(server);
+  registerScaffoldTools(server);
 
   return server;
 }
