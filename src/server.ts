@@ -9,6 +9,7 @@ import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js'
 import { registerReadTools } from './tools/read.js';
 import { registerWriteTools } from './tools/write.js';
 import { registerSearchTools } from './tools/search.js';
+import { registerMetadataTools } from './tools/metadata.js';
 
 // Server metadata
 const SERVER_NAME = 'mcp-file-forge';
@@ -27,6 +28,7 @@ export function createServer(): McpServer {
   registerReadTools(server);
   registerWriteTools(server);
   registerSearchTools(server);
+  registerMetadataTools(server);
 
   return server;
 }
