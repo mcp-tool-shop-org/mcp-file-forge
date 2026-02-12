@@ -14,6 +14,7 @@ import { z } from 'zod';
  * Standard success result from a tool.
  */
 export interface ToolSuccess {
+  [key: string]: unknown;
   content: Array<{
     type: 'text';
     text: string;
@@ -24,6 +25,7 @@ export interface ToolSuccess {
  * Standard error result from a tool.
  */
 export interface ToolError {
+  [key: string]: unknown;
   isError: true;
   content: Array<{
     type: 'text';

@@ -1,5 +1,5 @@
 {
-  "name": "@mcp-tool-shop/file-forge",
+  "name": "@mcptoolshop/file-forge",
   "version": "0.1.0",
   "description": "MCP server for file operations and project scaffolding - Windows-first, secure, sandboxed",
   "type": "module",
@@ -56,5 +56,9 @@
     "rimraf": "^6.0.0",
     "typescript": "^5.6.0",
     "vitest": "^2.0.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
   }
 }

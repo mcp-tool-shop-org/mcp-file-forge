@@ -68,7 +68,7 @@ export function successResult(data: unknown): ToolResult {
 /**
  * Wrap a function with error handling.
  */
-export function withErrorHandling<T extends unknown[], R>(
+export function withErrorHandling<T extends unknown[]>(
   fn: (...args: T) => Promise<ToolResult>,
   context: string
 ): (...args: T) => Promise<ToolResult> {
