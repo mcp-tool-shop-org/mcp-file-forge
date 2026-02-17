@@ -1,3 +1,5 @@
+<p align="center"><img src="logo.png" alt="logo" width="200"></p>
+
 # MCP File Forge
 
 > Part of [MCP Tool Shop](https://mcptoolshop.com)
