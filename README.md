@@ -1,5 +1,8 @@
 # MCP File Forge
 
+> Part of [MCP Tool Shop](https://mcptoolshop.com)
+
+
 A Model Context Protocol (MCP) server for secure file operations and project scaffolding.
 
 ## Features
