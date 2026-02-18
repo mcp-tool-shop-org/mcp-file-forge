@@ -9,6 +9,9 @@
 
 import { startServer } from './server.js';
 
+// Re-export for Smithery scanning
+export { createSandboxServer } from './server.js';
+
 // Handle uncaught errors
 process.on('uncaughtException', (error) => {
   console.error('[mcp-file-forge] Uncaught exception:', error);

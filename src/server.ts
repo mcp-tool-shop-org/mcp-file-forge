@@ -147,6 +147,16 @@ async function startHttpServer(_server: McpServer, port: number): Promise<void> 
 }
 
 /**
+ * Create a sandbox server instance for Smithery scanning.
+ *
+ * This allows Smithery to discover tools/resources without
+ * real configuration or credentials. Used during `smithery mcp publish`.
+ */
+export function createSandboxServer(): McpServer {
+  return createServer();
+}
+
+/**
  * Start the MCP server.
  *
  * Mode selection:
