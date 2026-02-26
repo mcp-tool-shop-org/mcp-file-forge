@@ -1,6 +1,6 @@
 {
   "name": "@mcptoolshop/file-forge",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "MCP server for file operations and project scaffolding - Windows-first, secure, sandboxed",
   "type": "module",
   "main": "./build/index.js",
