@@ -43,3 +43,7 @@ temp/
 
 # Smithery build artifacts
 .smithery/
+site/.astro/
+site/dist/
+site/node_modules/
+.polyglot-cache.json

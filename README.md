@@ -1,17 +1,19 @@
-<p align="center"><img src="logo.png" alt="MCP File Forge" width="200"></p>
+<p align="center">
+  <a href="README.ja.md">日本語</a> | <a href="README.zh.md">中文</a> | <a href="README.es.md">Español</a> | <a href="README.fr.md">Français</a> | <a href="README.hi.md">हिन्दी</a> | <a href="README.it.md">Italiano</a> | <a href="README.pt-BR.md">Português (BR)</a>
+</p>
 
-<h1 align="center">MCP File Forge</h1>
+<p align="center"><img src="https://raw.githubusercontent.com/mcp-tool-shop-org/brand/main/logos/mcp-file-forge/readme.png" alt="MCP File Forge" width="400"></p>
 
 <p align="center">
   Secure file operations and project scaffolding for AI agents.
   <br />
-  Part of <a href="https://mcptoolshop.com">MCP Tool Shop</a>
+  Part of <a href="https://mcp-tool-shop.github.io/">MCP Tool Shop</a>
 </p>
 
 <p align="center">
   <a href="https://www.npmjs.com/package/@mcptoolshop/file-forge"><img alt="npm version" src="https://img.shields.io/npm/v/@mcptoolshop/file-forge"></a>
-  <a href="https://github.com/mcp-tool-shop-org/mcp-file-forge/blob/main/LICENSE"><img alt="license" src="https://img.shields.io/npm/l/@mcptoolshop/file-forge"></a>
-  <img alt="node" src="https://img.shields.io/badge/node-%3E%3D18-brightgreen">
+  <a href="https://github.com/mcp-tool-shop-org/mcp-file-forge/blob/main/LICENSE"><img alt="license" src="https://img.shields.io/badge/license-MIT-blue"></a>
+  <a href="https://mcp-tool-shop-org.github.io/mcp-file-forge/"><img alt="Landing Page" src="https://img.shields.io/badge/Landing_Page-live-blue"></a>
 </p>
 
 ---
@@ -236,4 +238,4 @@ npm run lint
 
 ---
 
-**Author:** [mcp-tool-shop](https://github.com/mcp-tool-shop)
+Built by <a href="https://mcp-tool-shop.github.io/">MCP Tool Shop</a>
