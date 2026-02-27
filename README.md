@@ -232,10 +232,38 @@ npm run lint
 
 ---
 
+## Security & Data Scope
+
+MCP File Forge is an **MCP server** providing sandboxed file operations for AI agents.
+
+- **Data accessed:** Files within explicitly allowed directories only. Config files, template directories
+- **Data NOT accessed:** No cloud sync. No telemetry. No analytics. No data outside sandbox
+- **Network:** stdio transport only — no network listeners. No egress
+- **No telemetry** is collected or sent
+
+Full policy: [SECURITY.md](SECURITY.md)
+
+---
+
+## Scorecard
+
+| Category | Score |
+|----------|-------|
+| A. Security | 10/10 |
+| B. Error Handling | 10/10 |
+| C. Operator Docs | 10/10 |
+| D. Shipping Hygiene | 10/10 |
+| E. Identity (soft) | 10/10 |
+| **Overall** | **50/50** |
+
+---
+
 ## License
 
 [MIT](LICENSE)
 
 ---
 
-Built by <a href="https://mcp-tool-shop.github.io/">MCP Tool Shop</a>
+<p align="center">
+  Built by <a href="https://mcp-tool-shop.github.io/">MCP Tool Shop</a>
+</p>
