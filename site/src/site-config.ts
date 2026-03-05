@@ -15,7 +15,7 @@ export const config: SiteConfig = {
     headlineAccent: 'Sandboxed file ops for AI agents.',
     description: 'Give your AI agents safe, policy-controlled access to the local file system. 17 tools across reading, writing, search, metadata, and scaffolding — all sandboxed.',
     primaryCta: { href: '#usage', label: 'Get started' },
-    secondaryCta: { href: '#features', label: 'Explore features' },
+    secondaryCta: { href: 'handbook/', label: 'Read the Handbook' },
     previews: [
       { label: 'npx', code: 'npx @mcptoolshop/file-forge' },
       { label: 'Install', code: 'npm install -g @mcptoolshop/file-forge' },
