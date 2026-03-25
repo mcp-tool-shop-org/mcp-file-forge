@@ -16,10 +16,11 @@ import { registerMetadataTools } from './tools/metadata.js';
 import { registerScaffoldTools } from './tools/scaffold.js';
 import { loadConfig } from './config/index.js';
 import { getSandbox, enableReadOnlyMode } from './security/index.js';
+import { VERSION, NAME } from './version.js';
 
 // Server metadata
-const SERVER_NAME = 'mcp-file-forge';
-const SERVER_VERSION = '0.2.0';
+const SERVER_NAME = NAME;
+const SERVER_VERSION = VERSION;
 
 /**
  * Create and configure the MCP server instance.
