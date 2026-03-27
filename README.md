@@ -238,7 +238,7 @@ MCP File Forge is an **MCP server** providing sandboxed file operations for AI a
 
 - **Data accessed:** Files within explicitly allowed directories only. Config files, template directories
 - **Data NOT accessed:** No cloud sync. No telemetry. No analytics. No data outside sandbox
-- **Network:** stdio transport only — no network listeners. No egress
+- **Network:** stdio transport by default — no network listeners, no egress. HTTP mode available via `PORT` env var for remote deployment
 - **No telemetry** is collected or sent
 
 Full policy: [SECURITY.md](SECURITY.md)
